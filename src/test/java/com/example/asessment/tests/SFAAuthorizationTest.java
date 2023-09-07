@@ -25,6 +25,6 @@ public class SFAAuthorizationTest {
     @DisplayName("Проверка авторизации в SFA")
     public void sfaAuthTest() {
         SFAAuthorization.sendAuthText("RUM0PPK", "rules");
-        $("span>a[data-test-id='2015012008382704536517']").shouldHave((Condition.text("Оповещения")).because("Открылась не та страница"));
+        $("span>a[data-test-id='2015012008382704536517']").shouldHave((Condition.text("Оповещения")));
     }
 }
