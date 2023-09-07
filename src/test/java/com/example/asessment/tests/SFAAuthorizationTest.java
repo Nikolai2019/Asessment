@@ -11,6 +11,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
+//Обязательно должно быть подключение к сети банка
+
 public class SFAAuthorizationTest {
 
     SFAAuthorization SFAAuthorization = new SFAAuthorization();
